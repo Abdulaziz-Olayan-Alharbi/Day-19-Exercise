@@ -1,0 +1,74 @@
+Q1)
+
+Output(
+hey from message1
+)
+
+why : because it is the only method
+
+
+Q2)
+Output(
+hey from message1
+hey from message2
+)
+why : because the second method require return from the first method 
+
+Q3)
+Output(
+1-
+hey from message1
+hey from message3
+hey from message2
+2-
+hey from message3
+hey from message2
+hey from message1
+3-
+hey from message3
+hey from message1
+hey from message2  
+)
+why : because the second method require return from the third method and it is possible the third method execute  before the first method and in this case maybe the first method or the second method execute first 
+
+
+
+Q4)
+Output(
+1-
+hey from message1
+hey from message3
+hey from message2
+hey from main controller
+2-
+hey from message3
+hey from message1
+hey from message2
+hey from main controller
+3-
+hey from message3
+hey from message2
+hey from message1
+hey from main controller
+)
+why: because the first method and the third method will execute first in any order then the second method and the main controller method will execute in any order because these methods require returns , there is a case where the second method execute before the first method because after running the third method the second method can execute
+
+
+
+Q5)
+Output(
+hey from message3
+hey from message2
+hey from main controller
+hey from message1
+)
+
+why : because there is only one path to follow and this path can not change
+
+
+
+
+
+
+
+
